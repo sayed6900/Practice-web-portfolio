@@ -8,6 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin :0 200px ;
 }
 .side-title{
     color: #181818;
@@ -38,4 +39,16 @@ nav a{
     font-weight: 700;
     color: #FFF ;
     padding: 15px 30px;
+}
+header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+    height: 600px;
 }
