@@ -42,9 +42,9 @@ nav a{
 }
 header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 .banner{
     padding: 30px 30px 0px 150px ;
@@ -87,4 +87,12 @@ section h3 {
 }
 .i-do{
     margin: 0 218px 0 216px;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
